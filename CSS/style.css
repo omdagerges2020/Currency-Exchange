@@ -1,0 +1,119 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.amount-sec{
+    background-color: rgb(23, 43, 2);
+    width: 50%;
+    padding: 2em;
+}
+
+.logo {
+    background-color: white;
+    width: 7em;
+    height: 3em;
+    border-radius: 3em;
+}
+
+i {
+    font-size: 12px;
+}
+.fa-euro-sign {
+    color: rgb(80, 80, 219);
+}
+.fa-dollar-sign {
+    color: rgba(4, 4, 88, 0.674);
+}
+.logo-name {
+    color: rgb(248, 207, 1);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+label {
+    color: grey;
+    font-weight: bold;
+}
+
+input {
+    background-color: rgb(23, 43, 2);
+    border: none;
+    width: 80%;
+    color: rgb(163, 250, 12);
+}
+input:focus{
+    outline: none;
+}
+.amount-sec .input button {
+    background-color: rgb(23, 43, 2);
+    border: none;
+}
+.arrow-sign {
+    color: rgb(163, 250, 12);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+hr {
+    color: green;
+}
+
+.select-sec {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.form-select {
+    border-radius: 0;
+    border: none !important;
+    outline: none !important;
+}
+
+
+
+
+.conv-btn {
+    border: none;
+    background-color: rgb(96, 93, 93);
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+img {
+    background-color: white;
+    /* padding-left: .5em; */
+    height: 36px;
+}
+
+.main-select {
+    position: relative;
+}
+
+
+/* Responsive */
+/* small Screen */
+@media screen and (max-width: 767px) {
+    .amount-sec {
+        width: 100%;
+    }
+    .form-select {
+        font-size: 10px;
+    }
+
+}
+
+/* Tablet Screen */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .amount-sec {
+        width: 70%;
+    }
+}
+
+
+
+
+

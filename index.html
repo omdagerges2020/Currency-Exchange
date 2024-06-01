@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange</title>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!-- Bootstrab Css -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+    <div class="main bg-dark bg-gradient w-100 vh-100">
+        <!-- Navbar -->
+        <nav class="navbar bg-dark p-3">
+            <div class="container">
+              <div class="logo d-flex flex-column justify-content-evenly shadow p-2 bg-body-tertiary rounded">
+                <i class="fa-solid fa-euro-sign"> currency</i>
+                <i class="fa-solid fa-dollar-sign"> converter</i>
+              </div>
+              <span class="logo-name">Currency-Converter</span>
+            </div>
+        </nav>
+        <!-- Convert Box -->
+        <div class="convert-box mt-5 d-flex justify-content-center flex-column align-items-center w-100">
+            <!-- Amount Section -->
+            <div class="amount-sec shadow-lg rounded">
+                <label>Amount</label>
+                <!-- Main Input && Revert Button -->
+                <div class="input d-flex justify-content-between">
+                    <input class="ps-2" type="text" placeholder="1 By Default">
+                    <button class="rev-btn"><i class="fa-solid arrow-sign fa-arrow-right-arrow-left"></i></button>
+                </div>
+
+                <hr/>
+                
+                <!-- Select Section -->
+                <div class="select-sec">
+                    <div class="main-select">
+
+                        <div class="select-box d-flex">
+                            <div class="image-from">
+                                <img src="https://flagsapi.com/AE/shiny/32.png" alt="">
+                            </div>
+                            
+                            <select class="form-select from" aria-label="Large select example">
+                            </select>
+                        </div>
+
+                        <div class="select-box d-flex mt-4">
+                            <div class="image-to">
+                                <img src="https://flagsapi.com/AE/shiny/32.png" alt="">
+                            </div>
+                            
+                            <select class="form-select to" aria-label="Large select example">
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Convert Button -->
+                    <button class="conv-btn w-100 mt-3">Convert</button>
+                    <!-- Result div -->
+                    <div class="result text-center mt-4 mb-3"><span class="fw-bold text-white fs-3"></span></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
